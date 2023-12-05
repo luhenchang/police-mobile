@@ -1,0 +1,237 @@
+{
+    "name" : "案管助手",
+    "appid" : "__UNI__C812F5D",
+    "description" : "案管助手",
+    "versionName" : "1.1.7",
+    "versionCode" : 117,
+    "transformPx" : false,
+    "app-plus" : {
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "compatible" : {
+            "ignoreVersion" : true
+        },
+        "modules" : {
+            "Share" : {},
+            "Push" : {},
+            "VideoPlayer" : {},
+            "Speech" : {}
+        },
+        // "privacy" : {
+        //     "prompt" : "template",
+        //     "template" : {
+        //         "title" : "服务协议和隐私政策",
+        //         "message" : "  请你务必审慎阅读、充分理解“服务协议”和“隐私政策”各条款，包括但不限于：为了更好的向你提供服务，我们需要收集你的设备标识、操作日志等信息用于分析、优化应用性能。<br/>  你可阅读<a href=\"http://www.xuebazw.com/page/userterms.html\">《用户协议》</a>和<a href=\"http://www.xuebazw.com/page/privacy.html\">《隐私政策》</a>了解详细信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+        //         "buttonAccept" : "同意",
+        //         "buttonRefuse" : "暂不同意"
+        //     }
+        // },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
+                ],
+                "targetSdkVersion" : 30,
+                "minSdkVersion" : 24,
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "schemes" : "dcfuture"
+            },
+            "ios" : {
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "请求访问您的相册，选择照片作为头像或个人相册。您也可以稍候去系统设置中进行设置，允许访问相册",
+                    "NSCameraUsageDescription" : "请求访问您的摄像头，拍照作为头像或个人相册。您也可以稍候去系统设置中进行设置，允许访问相机",
+                    "NSUserTrackingUsageDescription" : "请放心，开启权限不会获取您在其他站点的隐私信息，改权限仅用于标识设备并保障服务安全与提示浏览体验",
+                    "NSLocalNetworkUsageDescription" : "此APP将访问您的本地网络，您是否同意？"
+                },
+                "idfa" : true,
+                "capabilities" : {
+                    "entitlements" : {
+                        "com.apple.developer.associated-domains" : [ "applinks:www.xinghun8.com" ]
+                    }
+                },
+                "urltypes" : "dcfuture"
+            },
+            "sdkConfigs" : {
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxaf1996701d5e3189",
+                        "appsecret" : "f132410cb2ce23af51210eb9e9d17504",
+                        "UniversalLinks" : "https://www.xinghun8.com/uni-universallinks/__UNI__B6740B2"
+                    }
+                },
+                "payment" : {
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wxc851ce553dc737ee",
+                        "UniversalLinks" : "https://www.xinghun8.com/uni-universallinks/__UNI__B6740B2"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wxc851ce553dc737ee",
+                        "UniversalLinks" : "https://www.xinghun8.com/uni-universallinks/__UNI__B6740B2"
+                    }
+                },
+                "ad" : {},
+                "geolocation" : {},
+                "push" : {
+                    "unipush" : {}
+                },
+                "speech" : {
+                    "ifly" : {}
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/20x20.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "nvueLaunchMode" : "",
+        "nativePlugins" : {
+            "Dcfuture-SignRecord" : {
+                "__plugin_info__" : {
+                    "name" : "案管助手原生插件",
+                    "description" : "案管助手原生插件，集成备案签名，应用认证",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wx09a1fbb23770ebae",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : true,
+            "postcss" : true
+        },
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取位置，推荐附近商户"
+            }
+        }
+    },
+    "h5" : {
+        "router" : {
+            "base" : "/mobile/",
+            "mode" : "hash"
+        },
+        "publicPath" : "/mobile/",
+        "title" : "案管助手",
+        "domain" : "epai.dcfuture.cn/mobile/",
+        "devServer" : {
+            "https" : false
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "P3PBZ-VJICW-ZAARX-RCEH5-IMURE-IRFN7"
+                }
+            }
+        }
+    },
+    "uniStatistics" : {
+        "enable" : true
+    },
+    "mp-alipay" : {
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "appid" : "2021002145627711"
+    },
+    "mp-baidu" : {
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "appid" : "24194755"
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "appid" : "1111781517",
+        "setting" : {
+            "postcss" : true,
+            "minified" : true
+        }
+    },
+    "mp-toutiao" : {
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "appid" : "ttd46ea2d34b563ff3",
+        "setting" : {
+            "postcss" : true,
+            "minified" : true
+        }
+    },
+    "_spaceID" : "309ba59c-59f6-4c08-87f5-54ba60dec128"
+}

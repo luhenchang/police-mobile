@@ -1,0 +1,27 @@
+{
+    "name": "案管助手原生插件",
+    "id": "Dcfuture-SignRecord",
+    "version": "1.0",
+    "description": "案管助手原生插件，集成备案签名，应用认证",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "Dcfuture-SignRecord_SignRecordModule",
+                    "class": "io.dcloud.uniplugin.SignRecordModule"
+                }
+            ],
+			"dependencies": [
+			 
+			 ],
+            "integrateType": "aar",
+            "compileOptions": {
+                "sourceCompatibility": "1.8",
+                "targetCompatibility": "1.8"
+            },
+            "useAndroidX": true
+        }
+    }
+}

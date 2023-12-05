@@ -1,0 +1,1 @@
+java -javaagent:/home/data/www/police/dxytapm-agent.jar  -Ddxytapm.agent.service_name=sys-admin  -Ddxytapm.collector.backend_service=20.90.2.35:11800  -Ddxytapm.logging.file_name=dxytapm.log -Ddxytapm.logging.dir=./logs/ \ -jar sys-admin.jar

@@ -1,0 +1,338 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/receive",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "接警",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/police-compare",
+			"style": {
+				"navigationBarTitleText": "智能比对平台"
+			}
+		},
+		{
+			"path": "pages/tabbar/report",
+			"style": {
+				// "enablePullDownRefresh": true,
+				// "onReachBottomDistance": 50,
+				// #ifndef MP
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "通报"
+			}
+		},
+		{
+			"path": "pages/tabbar/contact",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				// #ifndef MP
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		
+		{
+			"path": "pages/tabbar/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/index/search-list",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "搜索结果"
+			}
+		},
+		{
+			"path": "pages/index/police-detail",
+			"style": {
+				"navigationBarTitleText": "警情详情"
+			}
+		},
+		{
+			"path": "pages/index/police-detail-receive",
+			"style": {
+				"navigationBarTitleText": "接警详情"
+			}
+		},
+		{
+			"path": "pages/index/police-history",
+			"style": {
+				"navigationBarTitleText": "历史警情"
+			}
+		},
+		{
+			"path": "pages/index/police-compare",
+			"style": {
+				"navigationBarTitleText": "智能比对"
+			}
+		},
+		{
+			"path": "pages/index/police-edit",
+			"style": {
+				"navigationBarTitleText": "警情修改"
+			}
+		},
+		{
+			"path": "pages/index/file-edit",
+			"style": {
+				"navigationBarTitleText": "案卷修改"
+			}
+		},
+		{
+			"path": "pages/index/manage-edit",
+			"style": {
+				"navigationBarTitleText": "案件修改"
+			}
+		},
+		{
+			"path": "pages/index/police-receive-edit",
+			"style": {
+				"navigationBarTitleText": "接警修改"
+			}
+		},
+		{
+			"path": "pages/index/property-edit",
+			"style": {
+				"navigationBarTitleText": "涉案财务修改"
+			}
+		},
+		{
+			"path": "pages/index/place-edit",
+			"style": {
+				"navigationBarTitleText": "场所管理修改"
+			}
+		},
+		{
+			"path": "pages/index/manage-detail",
+			"style": {
+				"navigationBarTitleText": "案件详情"
+			}
+		},
+		{
+			"path": "pages/index/file-detail",
+			"style": {
+				"navigationBarTitleText": "案卷详情"
+			}
+		},
+		{
+			"path": "pages/index/place-detail",
+			"style": {
+				"navigationBarTitleText": "场所详情"
+			}
+		},
+		{
+			"path": "pages/index/police-assign",
+			"style": {
+				"navigationBarTitleText": "指派打击民警"
+			}
+		},
+		{
+			"path": "pages/index/property-detail",
+			"style": {
+				"navigationBarTitleText": "涉案财物详情"
+			}
+		},
+		{
+			"path": "pages/report/share-more",
+			"style": {
+				"navigationBarTitleText": "分享通报"
+			}
+		},
+		{
+			"path": "pages/auth/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/auth/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+
+			}
+		},
+		{
+			"path": "pages/auth/bind-mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+
+			}
+		},
+		{
+			"path": "pages/auth/forgetPwd/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"subPackages": [{
+	        "root": "pages/user",
+	        "pages": [
+				{
+					"path": "base-profile",
+					"style": {
+						"navigationBarTitleText": "编辑资料"
+					}
+				},
+				{
+					"path": "account",
+					"style": {
+						"navigationBarTitleText": "账号与安全"
+					}
+				},
+				{
+					"path": "crop",
+					"style": {
+						"navigationBarTitleText": "上传头像"
+					}
+				},
+				{
+					"path": "set",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+				},
+				{
+					"path": "feedback",
+					"style": {
+						"navigationBarTitleText": "意见反馈"
+					}
+				},
+
+				{
+					"path": "userInfo",
+					"style": {
+						"navigationBarTitleText": "用户信息"
+					}
+				},
+				{
+					"path": "edit-user",
+					"style": {
+						"navigationBarTitleText": "修改用户信息"
+					}
+				},
+				{
+					"path": "single-page",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+	    }],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FAFAFA"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#2FC97C",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/receive",
+				"iconPath": "static/images/tabbar/receive.png",
+				"selectedIconPath": "static/images/tabbar/receive_selected.png",
+				"text": "接警"
+			},
+			{
+				"pagePath": "pages/tabbar/report",
+				"iconPath": "static/images/tabbar/report.png",
+				"selectedIconPath": "static/images/tabbar/report_selected.png",
+				"text": "通报"
+			},
+			{
+				"pagePath": "pages/tabbar/police-compare",
+				"iconPath": "static/images/tabbar/compare.png",
+				"selectedIconPath": "static/images/tabbar/compare_selected.png",
+				"text": "智能比对"
+			},
+			{
+				"pagePath": "pages/tabbar/user",
+				"iconPath": "static/images/tabbar/mine.png",
+				"selectedIconPath": "static/images/tabbar/mine_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue",
+			"uni-(.*)": "@/components/uni/uni-$1/uni-$1.vue",
+			"xui-(.*)": "@/components/xui/xui-$1/xui-$1.vue",
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
